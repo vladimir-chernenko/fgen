@@ -1,0 +1,6 @@
+sample
+__pycache__
+*.egg-info
+.cache
+gen.sublime-project
+gen.sublime-workspace

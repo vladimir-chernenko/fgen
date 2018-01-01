@@ -1,0 +1,4 @@
+{
+  "service_name": "sample service",
+  "service_resource": "{{ cookiecutter.service_name|title }}"
+}

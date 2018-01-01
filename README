@@ -1,0 +1,35 @@
+# fgen
+
+Cli application for fast prototyping Flask application
+
+
+## Cointains
+
+1. cookicutters
+  1. flask-base - base template for flask app
+  2. services
+    1. mvc - view template
+    2. rest - rest resource
+    3. celery - empty
+2. cli commands
+  1. create_base_app --app-name=sample
+  2. add_service --service-name=sample --service-type=rest|celery|mvc --project-path=project-path
+
+
+## Usage
+
+1. git clone
+2. pip install .
+
+
+## Contribute
+
+1. Check if issue with your idea or bug not exist already
+2. Create, where you should describe new feature or bug
+3. Submit a issue for your issue, assuming one does not already exist
+  1. Clearly describe the issue including steps to reproduce when it is a bug
+  2. Make sure you fill in the earliest version that you know has the issue
+4. Create new branch with your_name/[fix]/fix_name|feature_name
+5. After you are done, create MR, and describe how your fix or feature works
+6. Set assignee to @vladimir-chernenko
+7. Wait for my response
